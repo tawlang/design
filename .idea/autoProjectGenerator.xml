@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PluginProjectConfig">
+    <option name="path" value="$PROJECT_DIR$/out" />
+    <option name="managerUseBO" value="false" />
+    <option name="daoUseSequence" value="false" />
+    <option name="sql" value="INPUT SQL HERE JUST LIKE BELOW  &#10;&#10; ================================================ &#10;&#10;CREATE TABLE `bi_cn_com_analy_buy_day` (&#10;  `REC_ID` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '序列号',&#10;  `COM_ID` bigint(20) NOT NULL COMMENT '公司八码',&#10;  `INQUIRY_COM_NUM` int(11) DEFAULT '0' COMMENT '向我发询价买家量',&#10;  `VISIT_COM_NUM` int(11) DEFAULT '0' COMMENT '浏览附站买家量',&#10;  `RATE` decimal(10,2) DEFAULT '0.00' COMMENT '发询价买家与浏览买家的比率INQUIRY_COM_NUM/VISIT_COM_NUM',&#10;  `STAT_DATE` date DEFAULT NULL COMMENT '统计日',&#10;  `ADD_TIME` datetime DEFAULT NULL COMMENT '添加时间',&#10;  `SYN_FLAG` int(1) DEFAULT '0' COMMENT '同步标记：0表示未同步至ttnet应用库，1表示已同步',&#10;  `SYN_TIME` datetime DEFAULT NULL COMMENT '同步时间',&#10;  PRIMARY KEY (`REC_ID`),&#10;  KEY `idx_com_analy_buy_day_com_id` (`COM_ID`)&#10;) ENGINE=InnoDB AUTO_INCREMENT=4706962 DEFAULT CHARSET=utf8 COMMENT='买家行为分析统计表'&#10;&#10;&#10; ================================================ &#10;&#10;" />
+  </component>
+</project>

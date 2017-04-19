@@ -9,6 +9,7 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 
 /**
+ * 缓存代理模型
  * Created by taolang on 2017/4/18.
  */
 public class ImageProxyTestDrive {

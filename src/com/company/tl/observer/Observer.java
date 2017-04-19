@@ -1,4 +1,4 @@
-package com.company.tl.publish;
+package com.company.tl.observer;
 
 /**
  * Created by taolang on 2017/4/18.

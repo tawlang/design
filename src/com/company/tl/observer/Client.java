@@ -1,6 +1,7 @@
-package com.company.tl.publish;
+package com.company.tl.observer;
 
 /**
+ * 观察者模型
  * Created by taolang on 2017/4/18.
  */
 public class Client {

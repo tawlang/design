@@ -1,4 +1,4 @@
-package com.company.tl.publish;
+package com.company.tl.observer;
 
 import java.util.ArrayList;
 

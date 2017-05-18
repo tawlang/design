@@ -1,6 +1,7 @@
 package com.company.tl.chain;
 
 /**
+ * 责任链模式
  * Created by taolang on 2017/4/19.
  */
 public class Client {

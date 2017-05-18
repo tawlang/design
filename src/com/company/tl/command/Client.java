@@ -1,6 +1,7 @@
 package com.company.tl.command;
 
 /**
+ * 命令模式
  * Created by taolang on 2017/4/21.
  */
 public class Client {

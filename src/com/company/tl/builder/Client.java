@@ -1,6 +1,7 @@
 package com.company.tl.builder;
 
 /**
+ * 建设者模式
  * Created by taolang on 2017/4/21.
  */
 public class Client {

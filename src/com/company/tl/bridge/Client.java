@@ -1,9 +1,10 @@
 package com.company.tl.bridge;
 
 /**
+ * 桥接模式
  * Created by taolang on 2017/4/1.
  */
-public class BridgeTest {
+public class Client {
 
     public static void main(String[] args) {
 

@@ -21,6 +21,10 @@ public class Client {
         instructor.handleRequest(leaveNode1);
 
         //请假9天的请假条
+        LeaveNode leaveNode5 = new LeaveNode("麻子", 6);
+        instructor.handleRequest(leaveNode5);
+
+        //请假9天的请假条
         LeaveNode leaveNode2 = new LeaveNode("李四", 9);
         instructor.handleRequest(leaveNode2);
 

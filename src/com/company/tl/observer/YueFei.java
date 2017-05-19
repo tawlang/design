@@ -36,6 +36,7 @@ public class YueFei implements IYueFei ,Observable{
     public void notifyObservers(String context) {
         for(Observer o : observerList){
             o.update(context);
+            //this.chubing();
         }
     }
 }

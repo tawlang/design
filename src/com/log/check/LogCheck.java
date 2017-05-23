@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
+ * JDK 8 特性
  * Created by taolang on 2017/4/12.
  */
 public class LogCheck {

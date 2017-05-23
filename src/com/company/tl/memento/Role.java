@@ -32,7 +32,7 @@ public class Role {
     /**
      * 展示角色当前状况
      */
-    public void display(){
+    public void showplay(){
         System.out.println("用户当前状态：");
         System.out.println("血量:" + getBloodFlow() + ";蓝量:" + getMagicPoint());
     }
@@ -43,6 +43,15 @@ public class Role {
      */
     public Memento saveMemento(){
         return new Memento(getBloodFlow(), getMagicPoint());
+    }
+
+    /**
+     * 恢复存档
+     * @param memento
+     */
+    public void restoreMemento(Memento memento){
+        this.bloodFlow = memento.getBloodFlow();
+        this.magicPoint = memento.getMagicPoint();
     }
 
 }
